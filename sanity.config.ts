@@ -10,7 +10,7 @@ const config = defineConfig({
 
     title: "My Personal Website",
 
-    apiVersion: "2023-12-02",
+    apiVersion: "2023-12-01",
 
     basePath: "/admin",
 

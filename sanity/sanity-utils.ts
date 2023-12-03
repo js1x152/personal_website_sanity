@@ -37,9 +37,7 @@ export async function getPages(): Promise<Page[]>{
             _id,
             _createAt,
             title,
-            "slug": slug.current,
-            "image": image.asset->url,
-            content
+            "slug": slug.current
         }`
     );
 }
@@ -50,7 +48,6 @@ export async function getPage(slug: string): Promise<Page>{
             _createAt,
             title,
             "slug": slug.current,
-            "image": image.asset->url,
             content
         }`,
         {slug}

@@ -26,6 +26,7 @@ export default async function Page({ params }: Props){
             className = "object-cover rounded-lg border border-gray-500"
             />
           )}
+
             <PortableText value={page.content}/>
         </div>
        

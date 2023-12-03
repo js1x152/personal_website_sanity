@@ -1,9 +1,6 @@
 import { getPage } from "@/sanity/sanity-utils";
 import { PortableText } from "@portabletext/react";
-<<<<<<< HEAD
 import Image from 'next/image';
-=======
->>>>>>> parent of 3b1679d (Adding resume page)
 
 type Props = {
     params: {slug: string}
@@ -20,7 +17,6 @@ export default async function Page({ params }: Props){
                         page.title}
         </h1>
         <div className="text-lg text-gray-700 mt-10">
-<<<<<<< HEAD
         {page.image &&(
             <Image 
             src={page.image}
@@ -30,8 +26,6 @@ export default async function Page({ params }: Props){
             className = "object-cover rounded-lg border border-gray-500"
             />
           )}
-=======
->>>>>>> parent of 3b1679d (Adding resume page)
             <PortableText value={page.content}/>
         </div>
        

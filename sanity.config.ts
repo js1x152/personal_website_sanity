@@ -8,7 +8,7 @@ const config = defineConfig({
 
     dataset: "production",
 
-    title: "My Personal Website",
+    title: "John Secen's Personal Website",
 
     apiVersion: "2023-12-03",
 
